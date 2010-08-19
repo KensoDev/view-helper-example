@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Canvas xmlns:mx="http://www.adobe.com/2006/mxml" 
+		   width="400" 
+		   height="300"
+		   creationComplete="helper.init()"
+		   xmlns:helper="com.kensodev.views.helpers.*">
+
+	<mx:Script>
+		<![CDATA[
+			
+		]]>
+	</mx:Script>
+
+	
+	<helper:MyViewComponentHelper view="{this}" id="helper" />
+	
+	<mx:Button id="myButton" click="helper.myButton_clickHandler(event)"
+	
+	
+</mx:Canvas>
