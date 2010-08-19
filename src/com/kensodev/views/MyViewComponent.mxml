@@ -14,7 +14,7 @@
 	
 	<helper:MyViewComponentHelper view="{this}" id="helper" />
 	
-	<mx:Button id="myButton" click="helper.myButton_clickHandler(event)"
+	<mx:Button id="myButton" click="helper.myButton_clickHandler(event)" />
 	
 	
 </mx:Canvas>
